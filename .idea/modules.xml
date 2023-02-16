@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msanewMusicUI.iml" filepath="$PROJECT_DIR$/.idea/modules/msanewMusicUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/msanewMusicUI.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/msanewMusicUI.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/msanewMusicUI.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/msanewMusicUI.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/msanewMusicUI.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/msanewMusicUI.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/msanewMusicUI.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/msanewMusicUI.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/msanewMusicUI.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/msanewMusicUI.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/msanewMusicUI.core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/msanewMusicUI.core.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/msanewMusicUI.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/msanewMusicUI.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/msanewMusicUI.core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/msanewMusicUI.core.unitTest.iml" />
+    </modules>
+  </component>
+</project>
