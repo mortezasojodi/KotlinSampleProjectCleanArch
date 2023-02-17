@@ -12,47 +12,17 @@
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"/>
+            app:popExitAnim="@anim/slide_out_right"
+            />
     </fragment>
     <fragment android:id="@+id/mySecondFragment"
         android:name="com.example.msanewmusicui.fragment.DetailFragment"
         android:label="fragment_my_second"
         tools:layout="@layout/fragment_detail">
-
+        <argument
+            android:name="anime"
+            app:argType="com.example.msanewmusicui.core.domain.model.Anime" />
 
     </fragment>
-<!--    <fragment android:id="@+id/mySecondFragment"-->
-<!--        android:name="com.navigation.component.sample.ui.fragments.MySecondFragment"-->
-<!--        android:label="fragment_my_second"-->
-<!--        tools:layout="@layout/fragment_my_second">-->
-<!--        <argument-->
-<!--            android:name="arg2"-->
-<!--            app:argType="integer"-->
-<!--            android:defaultValue="2"/>-->
-<!--        <argument android:name="arg3"-->
-<!--            app:argType="com.navigation.component.sample.data.MyParcelableDataArgs"-->
-<!--            app:nullable="true"/>-->
-<!--        <argument-->
-<!--            android:name="arg1"-->
-<!--            app:argType="string"-->
-<!--            android:defaultValue="default string"/>-->
-<!--        <action android:id="@+id/action_mySecondFragment_to_myThirdFragment"-->
-<!--            app:destination="@id/myThirdFragment"-->
-<!--            app:enterAnim="@anim/slide_in_right"-->
-<!--            app:exitAnim="@anim/slide_out_left"-->
-<!--            app:popEnterAnim="@anim/slide_in_left"-->
-<!--            app:popExitAnim="@anim/slide_out_right"/>-->
 
-<!--    </fragment>-->
-<!--    <fragment android:id="@+id/myThirdFragment"-->
-<!--        android:name="com.navigation.component.sample.ui.fragments.MyThirdFragment"-->
-<!--        android:label="fragment_my_third"-->
-<!--        tools:layout="@layout/fragment_my_third">-->
-<!--        <action android:id="@+id/action_myThirdFragment_to_myHomeFragment3"-->
-<!--            app:popUpTo="@id/myHomeFragment"-->
-
-<!--            />-->
-<!--        <action android:id="@+id/action_myThirdFragment_to_mySecondFragment"-->
-<!--            app:popUpTo="@id/mySecondFragment"/>-->
-<!--    </fragment>-->
 </navigation>
