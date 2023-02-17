@@ -21,11 +21,6 @@ import timber.log.Timber
 class HomeFragment: Fragment() {
 
     private val homeViewModel: HomeViewModel by viewModel()
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -35,7 +30,7 @@ class HomeFragment: Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
+        super.onViewCreated(view, savedInstanceState)
         if (activity != null) {
             val animeAdapter = AnimeAdapter { item -> showDetail(item) }
 
@@ -44,7 +39,7 @@ class HomeFragment: Fragment() {
                     when (anime) {
                         is Resource.Loading -> progress_bar.visibility = View.VISIBLE
                         is Resource.Success -> {
-                            progress_bar.visibility = View.GONE
+                            progress_bar.visibility=View.GONE
                             animeAdapter.setData(anime.data)
                         }
                         is Resource.Error -> {

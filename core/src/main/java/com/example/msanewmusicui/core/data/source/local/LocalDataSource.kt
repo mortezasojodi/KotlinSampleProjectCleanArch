@@ -6,11 +6,17 @@ import kotlinx.coroutines.flow.Flow
 
 class LocalDataSource(private val animeDao: AnimeDao) {
 
-    fun getAllAnime(): Flow<List<AnimeEntity>> = animeDao.getAllAnime()
+    fun getAllAnime(): Flow<List<AnimeEntity>> {
+        return  animeDao.getAllAnime();
+    }
 
-    fun getFavoriteAnime(): Flow<List<AnimeEntity>> = animeDao.getFavoriteAnime()
+    fun getFavoriteAnime(): Flow<List<AnimeEntity>> {
+        return  animeDao.getFavoriteAnime()
+    }
 
-    suspend fun insertAnime(animeList: List<AnimeEntity>) = animeDao.insertAnime(animeList)
+    suspend fun insertAnime(animeList: List<AnimeEntity>)  {
+        return animeDao.insertAnime(animeList);
+    }
 
     fun setFavoriteAnime(anime: AnimeEntity, newState: Boolean) {
         anime.isFavorite = newState
