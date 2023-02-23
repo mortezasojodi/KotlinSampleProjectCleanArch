@@ -9,14 +9,14 @@
         android:label="fragment_my_home"
         tools:layout="@layout/fragment_home">
         <action android:id="@+id/action_myHomeFragment_to_mySecondFragment"
-            app:destination="@id/mySecondFragment"
+            app:destination="@id/detailFragmentActivity"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"
             />
     </fragment>
-    <fragment android:id="@+id/mySecondFragment"
+    <fragment android:id="@+id/detailFragmentActivity"
         android:name="com.example.msanewmusicui.fragment.DetailFragment"
         android:label="fragment_my_second"
         tools:layout="@layout/fragment_detail">
